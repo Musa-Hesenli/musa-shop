@@ -1,3 +1,4 @@
+from os import system
 from django.contrib import admin
 from django.urls import path
 from django.urls.conf import include
@@ -14,4 +15,5 @@ urlpatterns = [
     path('add-to/', include('cart__and__favorites.urls'))
 ]
 
-urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
