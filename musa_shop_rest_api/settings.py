@@ -27,7 +27,7 @@ SECRET_KEY = '-5xkj8*8abbql$o(7d@!vf+gu%z6%ar3t!nmddv&bwh%3wv)%n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['musa-shop.herokuapp', '127.0.0.1']
+ALLOWED_HOSTS = ['musa-shop.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
