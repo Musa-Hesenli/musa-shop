@@ -1,0 +1,1 @@
+web: gunicorn musa_shop_rest_api.wsgi --log-file -
